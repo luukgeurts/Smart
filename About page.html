@@ -76,9 +76,33 @@ body{ margin-left: 250;
 margin-right: 250;
 margin-top: 50;
 margin-bottom:40;
-
-
 }
+
+#canvas{
+width:100%;
+height: 100%;
+Display:block;
+Margin:auto;
+}
+
+#vid{
+width:50%;
+height: 50%;
+Display:block;
+Margin:auto;
+}
+
+#Persona{
+width:60%;
+height: 60%;
+Display:block;
+Margin:auto;
+}
+
+h3,h1,#intro{
+text-align:center;
+}
+
 
 </style>
 <body>
@@ -86,7 +110,7 @@ margin-bottom:40;
 
 <h1> Who am I and what can I do for you? </h1>
 
-<p> Bellow you can find information of who I am and what I can offer. I would like to answer your questions with a summary of me as a person </p>
+<p id="intro"> Below you can find information of who I am and what I can offer. I would like to answer your questions with a summary of me as a person </p>
 
 <h3> Hello World! </h3>
 <p> Aan de hand van de volgende vragen probeer ik een schets van mij zelf en mijn compententies te maken.  Er wordt in de toekomst ook een videoboodschap op de website van Github geplaatst.<br><br>
@@ -105,16 +129,16 @@ Daarnaast is de opkomst van smart technologie een interessante ontwikkeling voor
 4.	Welke partners heb ik nodig en hoe krijg ik die?<br>
 Om de bovenstaande goed in mijn hoofd te krijgen, moet ik een partner vinden met een andere achtergrond dan wat ik heb. Een ingeneur, IT-er. Iemand die kennis heeft van de technologische implentatie kant van een bedrijf.<br><br>
 
-<h4> My video </h4>
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/P4V2D4c9nKk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen> </iframe>
+<h3> My video </h3>
+<iframe id="vid" src="https://www.youtube.com/embed/P4V2D4c9nKk?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen> </iframe>
 
 <h3> My Persona Grid </h3>
 
-<img src="https://i.imgur.com/JZm7TzS.png"/>
+<img id="Persona" src="https://i.imgur.com/JZm7TzS.png"/>
 
 <h3> Bussiness Model à la Kris </h3>
 <p>Below you will find a business model for me as a student.</p>
-<img src="https://i.imgur.com/WQ5d0Td.png" style="width:1080px;height:720px;">
+<img id="Canvas" src="https://i.imgur.com/WQ5d0Td.png">
 
 </body>
 </html>
