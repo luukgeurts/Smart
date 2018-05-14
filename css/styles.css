@@ -16,7 +16,7 @@ a:hover {
 /* Current link */
 
 body.ahome a.ahome, body.aabout a.aabout, body.aconcurentenanalyse a.aconcurentenanalyse, body.asegmentatie a.asegmentatie, body.adoelgroep a.adoelgroep, body.apva a.apva{
-	background: red;
+	background: green;
 }
 
 section{
