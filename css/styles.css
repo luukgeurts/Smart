@@ -15,7 +15,7 @@ a:hover {
 
 /* Current link */
 body.ahome a.ahome, body.aabout a.aabout, body.aconcurentenanalyse a.aconcurentenanalyse, body.asegmentatie a.asegmentatie, body.adoelgroep a.adoelgroep, body.apva a.apva{
-	box-shadow: 0px 2px 0px #000000;
+	box-shadow: 0px 2px 0px #ffffff;
 }
 
 section{
