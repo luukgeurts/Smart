@@ -201,6 +201,14 @@ ol{
     clear: both;
 }
 
+/* css voor grafieken links */
+.column_VierLinks{
+	float: left;
+    width: 25%;
+    padding: 10px;
+    text-align: center;
+}
+
 .verslag{
 	background-color: #052D3D;
 	color: #cacecd;
@@ -247,6 +255,18 @@ tr:nth-child(even) {
 
 #centerMe{
 	text-align: center;
+}
+
+/* grafiek css */
+.extra_body{
+	background-color: #052D3D;
+	color: #cacecd;
+	text-align: center;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.amcharts{
+	box-shadow: 0px 0px 15px #1c1c1c;
 }
 
 /* Headings  */
